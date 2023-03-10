@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kanit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Courier Prime', monospace;
+    background: #130125;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.object {
+    border: none;
+    background: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    gap: 20px;
+}
+
+.promo-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px;
+    gap: 32px;
+    padding-bottom: 320px;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.description {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+}
+
+.promo-button {
+    background: #FD5A14;
+    border-radius: 2px;
+    border: none;
+    width: 200px;
+    height: 56px;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    padding-bottom: 120px;
+}
+
+.lorem {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+}
+
+.year {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
